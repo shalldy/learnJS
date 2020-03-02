@@ -17,7 +17,7 @@ console.log(i); //in console it gets error, referenceError
 //SIAF - Self Invoking Anonymous Function (sebuah fungsi tidak bernama) 
 (function () //--function anonymous-- create inside ()
 {
-    for (var i = 0; i < 10; i++) {
-        console.log(i);
-    }
+  for (var i = 0; i < 15; i++) {
+    console.log(i);
+  }
 }()) //--call function with () doesn't need to declare like test();
